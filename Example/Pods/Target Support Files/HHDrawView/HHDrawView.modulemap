@@ -1,0 +1,6 @@
+framework module HHDrawView {
+  umbrella header "HHDrawView-umbrella.h"
+
+  export *
+  module * { export * }
+}

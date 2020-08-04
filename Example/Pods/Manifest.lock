@@ -1,0 +1,16 @@
+PODS:
+  - HHDrawView (0.1.0)
+
+DEPENDENCIES:
+  - HHDrawView (from `../`)
+
+EXTERNAL SOURCES:
+  HHDrawView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHDrawView: 758015ef5b22d652d4c47f9490ad82b4d8386416
+
+PODFILE CHECKSUM: 78fda01682e3aeac29693e611e3a7797fa82578b
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0420896104EA21F22C968B8196AF8C1B /* ChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA47FDFD55B73FE449CCA001AA1B675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0F9F5E07FB1AC07A9870F8C72BBB2462 /* HHDrawView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */; };
+		1B135E7B1206B76D32DB1A85C745EA84 /* Pods-HHDrawView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324EBB4F564FBD4A8DCD32CCBA4F993C /* HHDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */; };
+		37BA08F477082200FEE1FFE80210919C /* Pods-HHDrawView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A761A36DB9D80A89A2F4FD4217773 /* Pods-HHDrawView_Example-dummy.m */; };
+		3ED1E8DFB28E632C61160A4B5686E848 /* DrawArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */; };
+		4A71639E78D9B2FF10C19BEB88E0379B /* DrawTrianglePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C202EF97118E716B545AB35BD602A1B /* HHDrawUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */; };
+		4C7D56A0BD384363156AC037E4D4D858 /* HHChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */; };
+		5BA41A4BC0CE1047EEE0A2AAA369A538 /* DrawArcView.h in Headers */ = {isa = PBXBuildFile; fileRef = D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E988DC2B347870D1522BD25F2836C9 /* HHChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64DF4B433ABF69847DEC35A5217B6823 /* HHIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76135D128064940C24F02300F865D6F2 /* HHDrawView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EDA8D77CF0ED2999D244BFBBA8FEEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91D8EFA859625024862094357D2FB754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9770AF2EFDA0D3130AD3B747406CD6F9 /* HHLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */; };
+		AB365C69EDF63610FBB5496CB7458059 /* DrawTriangleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1320C1675131E4F004CD9B5548AC16E /* DrawTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */; };
+		B1A6D84C1CF51AACE48C16955B1FE2AB /* HHIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */; };
+		BF9BCC4E3D4148E0C22A1BD3AF695903 /* HHChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */; };
+		C013034281AA2AA7FC7170F6BE28B442 /* HHChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67732BB48DAEA8874528E12E379EF6E /* HHDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8CF636134A332F35E43105C4173A5C /* Pods-HHDrawView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A89A113D9C285C2CBF007C8F4636C69 /* Pods-HHDrawView_Tests-dummy.m */; };
+		D01E1F7C3A10FBF5EBCE39F607D09F1D /* DrawTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */; };
+		D6B1CB9FF5B42D04996B183A7ABFAB91 /* HHLineChartValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE9669BBC9371CA252EE78DE803A31D /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */; };
+		F0269CEC05308AAE42F6C484D3FE39C8 /* HHDrawUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD92F259DC59DB3D7AD8CECC60B6933D /* Pods-HHDrawView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7668B60FF26E4852AA960BCCDE59880F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AE1B91879A9E27E5CCFC1ADC523826;
+			remoteInfo = HHDrawView;
+		};
+		ED68206EC746D115F12A326828B4C32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89B4B13BF58DA344E8C0920CCD56DCCB;
+			remoteInfo = "Pods-HHDrawView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BEBED7539166CB8FD039FC147750E7 /* Pods-HHDrawView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHDrawView_Tests.modulemap"; sourceTree = "<group>"; };
+		068E0656EE62C5AD5979CA038BBCB8E2 /* Pods-HHDrawView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Tests-Info.plist"; sourceTree = "<group>"; };
+		09E1EA6E2F5AC63016FA3929F93C5BE3 /* Pods-HHDrawView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DD8E2CB2A60030B94A16E1C3D164284 /* Pods-HHDrawView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHDrawView_Example.modulemap"; sourceTree = "<group>"; };
+		2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHLineChartValue.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTriangleView.h; sourceTree = "<group>"; };
+		4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHIndicatorView.m; sourceTree = "<group>"; };
+		5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHDrawView-dummy.m"; sourceTree = "<group>"; };
+		57C4E18D0B5C946FCE42660793B67049 /* Pods-HHDrawView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawView.m; sourceTree = "<group>"; };
+		5B960DD484A6604038936F82F717CE4D /* Pods-HHDrawView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C1221F751B055189F3EF7ADFEE89654 /* HHDrawView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-prefix.pch"; sourceTree = "<group>"; };
+		662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHDrawView.xcconfig; sourceTree = "<group>"; };
+		6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		69AFA504F38E7E4B0A8490C18BC65EE5 /* Pods-HHDrawView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Tests.framework; path = "Pods-HHDrawView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawArcView.m; sourceTree = "<group>"; };
+		784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		791BAA6F693135FA14D320D69DB64669 /* Pods-HHDrawView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHDrawView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EC87E8C276F79AF8CE82D7D56A5C60D /* Pods-HHDrawView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80E28CEEFFBB1D6563B4ECC85E037469 /* Pods-HHDrawView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		885D464F9EE17EFA47433F2A1EF0D3F0 /* Pods-HHDrawView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Example-Info.plist"; sourceTree = "<group>"; };
+		8A89A113D9C285C2CBF007C8F4636C69 /* Pods-HHDrawView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHDrawView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTrianglePath.h; sourceTree = "<group>"; };
+		98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartCell.h; sourceTree = "<group>"; };
+		9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawUtil.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHDrawView.framework; path = HHDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawView.h; sourceTree = "<group>"; };
+		A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTriangleView.m; sourceTree = "<group>"; };
+		B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-umbrella.h"; sourceTree = "<group>"; };
+		BE3A761A36DB9D80A89A2F4FD4217773 /* Pods-HHDrawView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHDrawView_Example-dummy.m"; sourceTree = "<group>"; };
+		BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglePath.m; sourceTree = "<group>"; };
+		BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHLineChartValue.h; sourceTree = "<group>"; };
+		BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Example.framework; path = "Pods-HHDrawView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartCell.m; sourceTree = "<group>"; };
+		D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawArcView.h; sourceTree = "<group>"; };
+		DA94CA6296D2A58F56034525E399A7EC /* HHDrawView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHDrawView.modulemap; sourceTree = "<group>"; };
+		DDE7F3A847ABAE8E5F591632289EB68C /* HHDrawView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHDrawView-Info.plist"; sourceTree = "<group>"; };
+		E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartConfig.m; sourceTree = "<group>"; };
+		E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartConfig.h; sourceTree = "<group>"; };
+		F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHIndicatorView.h; sourceTree = "<group>"; };
+		F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawUtil.h; sourceTree = "<group>"; };
+		FBF7EC30569E06625C8ED2B5AE4D192E /* Pods-HHDrawView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FCADB59A00E6E5630B31DB1A6E62C1AB /* Pods-HHDrawView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHDrawView_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3603CA63187EBAAD95160751181B68F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D8EFA859625024862094357D2FB754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406A54CC8901E1BEBC5D050A6CDD881F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA8D77CF0ED2999D244BFBBA8FEEAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6E26795AF6F0E91E9BD28993C76804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA47FDFD55B73FE449CCA001AA1B675 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C73AE57B03B775C556193B63B646FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA94CA6296D2A58F56034525E399A7EC /* HHDrawView.modulemap */,
+				662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */,
+				5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */,
+				DDE7F3A847ABAE8E5F591632289EB68C /* HHDrawView-Info.plist */,
+				5C1221F751B055189F3EF7ADFEE89654 /* HHDrawView-prefix.pch */,
+				B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HHDrawView";
+			sourceTree = "<group>";
+		};
+		45F705DA9F2699B1B9EF3AA51BD41F03 /* HHDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				CFF602E5F885FC08935A399AFA2F5792 /* Arc */,
+				556FEE22FA368BA08AE59667212CD15C /* Curve */,
+				B72F538546EA6482887F687CF7ADF1BD /* Pod */,
+				06C73AE57B03B775C556193B63B646FB /* Support Files */,
+				A595770DD33AEA0C1DDB1BC53E2D2061 /* Triangle */,
+			);
+			name = HHDrawView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		556FEE22FA368BA08AE59667212CD15C /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */,
+				CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */,
+				98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */,
+				D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */,
+				E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */,
+				E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */,
+				F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */,
+				9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */,
+				A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */,
+				589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */,
+				F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */,
+				4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */,
+				BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */,
+				2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */,
+			);
+			name = Curve;
+			path = HHDrawView/Classes/Draw/Curve;
+			sourceTree = "<group>";
+		};
+		5E968AAD1E0C037AE468388FD8451A3F /* Pods-HHDrawView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03BEBED7539166CB8FD039FC147750E7 /* Pods-HHDrawView_Tests.modulemap */,
+				791BAA6F693135FA14D320D69DB64669 /* Pods-HHDrawView_Tests-acknowledgements.markdown */,
+				80E28CEEFFBB1D6563B4ECC85E037469 /* Pods-HHDrawView_Tests-acknowledgements.plist */,
+				8A89A113D9C285C2CBF007C8F4636C69 /* Pods-HHDrawView_Tests-dummy.m */,
+				068E0656EE62C5AD5979CA038BBCB8E2 /* Pods-HHDrawView_Tests-Info.plist */,
+				6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */,
+				09E1EA6E2F5AC63016FA3929F93C5BE3 /* Pods-HHDrawView_Tests.debug.xcconfig */,
+				FBF7EC30569E06625C8ED2B5AE4D192E /* Pods-HHDrawView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HHDrawView_Tests";
+			path = "Target Support Files/Pods-HHDrawView_Tests";
+			sourceTree = "<group>";
+		};
+		718E5F6F255207BA69C628A9F2181523 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97D560DD293AF7D3F7438CDD4C5B32DE /* Pods-HHDrawView_Example */,
+				5E968AAD1E0C037AE468388FD8451A3F /* Pods-HHDrawView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97D560DD293AF7D3F7438CDD4C5B32DE /* Pods-HHDrawView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0DD8E2CB2A60030B94A16E1C3D164284 /* Pods-HHDrawView_Example.modulemap */,
+				69AFA504F38E7E4B0A8490C18BC65EE5 /* Pods-HHDrawView_Example-acknowledgements.markdown */,
+				57C4E18D0B5C946FCE42660793B67049 /* Pods-HHDrawView_Example-acknowledgements.plist */,
+				BE3A761A36DB9D80A89A2F4FD4217773 /* Pods-HHDrawView_Example-dummy.m */,
+				FCADB59A00E6E5630B31DB1A6E62C1AB /* Pods-HHDrawView_Example-frameworks.sh */,
+				885D464F9EE17EFA47433F2A1EF0D3F0 /* Pods-HHDrawView_Example-Info.plist */,
+				BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */,
+				7EC87E8C276F79AF8CE82D7D56A5C60D /* Pods-HHDrawView_Example.debug.xcconfig */,
+				5B960DD484A6604038936F82F717CE4D /* Pods-HHDrawView_Example.release.xcconfig */,
+			);
+			name = "Pods-HHDrawView_Example";
+			path = "Target Support Files/Pods-HHDrawView_Example";
+			sourceTree = "<group>";
+		};
+		A595770DD33AEA0C1DDB1BC53E2D2061 /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */,
+				BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */,
+				3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */,
+				A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */,
+			);
+			name = Triangle;
+			path = HHDrawView/Classes/Draw/Triangle;
+			sourceTree = "<group>";
+		};
+		B72F538546EA6482887F687CF7ADF1BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */,
+				C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */,
+				784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F79FDDE2DF8C0CE5CC23C8755A633341 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ECE683290818C88B049A1D314820CE53 /* Products */,
+				718E5F6F255207BA69C628A9F2181523 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF602E5F885FC08935A399AFA2F5792 /* Arc */ = {
+			isa = PBXGroup;
+			children = (
+				D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */,
+				741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */,
+			);
+			name = Arc;
+			path = HHDrawView/Classes/Draw/Arc;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE683290818C88B049A1D314820CE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */,
+				C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */,
+				71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79FDDE2DF8C0CE5CC23C8755A633341 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45F705DA9F2699B1B9EF3AA51BD41F03 /* HHDrawView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BC804BFCD3F4EBCACC639A0557808CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B135E7B1206B76D32DB1A85C745EA84 /* Pods-HHDrawView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63389AD41D432F8C8699C259C5B8F880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD92F259DC59DB3D7AD8CECC60B6933D /* Pods-HHDrawView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A0004D42C27A3DF4645C2FF42DE0D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0420896104EA21F22C968B8196AF8C1B /* ChartModel.h in Headers */,
+				5BA41A4BC0CE1047EEE0A2AAA369A538 /* DrawArcView.h in Headers */,
+				4A71639E78D9B2FF10C19BEB88E0379B /* DrawTrianglePath.h in Headers */,
+				AB365C69EDF63610FBB5496CB7458059 /* DrawTriangleView.h in Headers */,
+				C013034281AA2AA7FC7170F6BE28B442 /* HHChartCell.h in Headers */,
+				61E988DC2B347870D1522BD25F2836C9 /* HHChartConfig.h in Headers */,
+				F0269CEC05308AAE42F6C484D3FE39C8 /* HHDrawUtil.h in Headers */,
+				76135D128064940C24F02300F865D6F2 /* HHDrawView-umbrella.h in Headers */,
+				C67732BB48DAEA8874528E12E379EF6E /* HHDrawView.h in Headers */,
+				64DF4B433ABF69847DEC35A5217B6823 /* HHIndicatorView.h in Headers */,
+				D6B1CB9FF5B42D04996B183A7ABFAB91 /* HHLineChartValue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		191ED4763A784B54437936B386B796B7 /* Pods-HHDrawView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14E6CF493130CFD1408247C0FA09E50 /* Build configuration list for PBXNativeTarget "Pods-HHDrawView_Tests" */;
+			buildPhases = (
+				5BC804BFCD3F4EBCACC639A0557808CA /* Headers */,
+				4C3D161924C03ABC6A215A4000E447F1 /* Sources */,
+				406A54CC8901E1BEBC5D050A6CDD881F /* Frameworks */,
+				BAB965BD3E8D1731C0579EA174578BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C75508D2279A61B9959D2CB395616D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-HHDrawView_Tests";
+			productName = "Pods-HHDrawView_Tests";
+			productReference = 71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44AE1B91879A9E27E5CCFC1ADC523826 /* HHDrawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88598CF33CC443B28BF14D6A62140829 /* Build configuration list for PBXNativeTarget "HHDrawView" */;
+			buildPhases = (
+				A8A0004D42C27A3DF4645C2FF42DE0D9 /* Headers */,
+				65E1CA4896B183CC6859D8F738FE79FA /* Sources */,
+				DF6E26795AF6F0E91E9BD28993C76804 /* Frameworks */,
+				14914DBFD3CCC8EC2521E3416463B593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHDrawView;
+			productName = HHDrawView;
+			productReference = A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89B4B13BF58DA344E8C0920CCD56DCCB /* Pods-HHDrawView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ED412B5DD993085C6EAF89A0C4DFB2 /* Build configuration list for PBXNativeTarget "Pods-HHDrawView_Example" */;
+			buildPhases = (
+				63389AD41D432F8C8699C259C5B8F880 /* Headers */,
+				C2F3A6A8C865A0518946E84ADFD41568 /* Sources */,
+				3603CA63187EBAAD95160751181B68F7 /* Frameworks */,
+				CC3F2DF4D809CE1AA1C7E23AC25A2655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01CBBE56B02BF155042B5DCA51E3CD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HHDrawView_Example";
+			productName = "Pods-HHDrawView_Example";
+			productReference = C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ECE683290818C88B049A1D314820CE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AE1B91879A9E27E5CCFC1ADC523826 /* HHDrawView */,
+				89B4B13BF58DA344E8C0920CCD56DCCB /* Pods-HHDrawView_Example */,
+				191ED4763A784B54437936B386B796B7 /* Pods-HHDrawView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14914DBFD3CCC8EC2521E3416463B593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB965BD3E8D1731C0579EA174578BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F2DF4D809CE1AA1C7E23AC25A2655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3D161924C03ABC6A215A4000E447F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CF636134A332F35E43105C4173A5C /* Pods-HHDrawView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E1CA4896B183CC6859D8F738FE79FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9669BBC9371CA252EE78DE803A31D /* ChartModel.m in Sources */,
+				3ED1E8DFB28E632C61160A4B5686E848 /* DrawArcView.m in Sources */,
+				D01E1F7C3A10FBF5EBCE39F607D09F1D /* DrawTrianglePath.m in Sources */,
+				B1320C1675131E4F004CD9B5548AC16E /* DrawTriangleView.m in Sources */,
+				BF9BCC4E3D4148E0C22A1BD3AF695903 /* HHChartCell.m in Sources */,
+				4C7D56A0BD384363156AC037E4D4D858 /* HHChartConfig.m in Sources */,
+				4C202EF97118E716B545AB35BD602A1B /* HHDrawUtil.m in Sources */,
+				0F9F5E07FB1AC07A9870F8C72BBB2462 /* HHDrawView-dummy.m in Sources */,
+				324EBB4F564FBD4A8DCD32CCBA4F993C /* HHDrawView.m in Sources */,
+				B1A6D84C1CF51AACE48C16955B1FE2AB /* HHIndicatorView.m in Sources */,
+				9770AF2EFDA0D3130AD3B747406CD6F9 /* HHLineChartValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F3A6A8C865A0518946E84ADFD41568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BA08F477082200FEE1FFE80210919C /* Pods-HHDrawView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C75508D2279A61B9959D2CB395616D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HHDrawView_Example";
+			target = 89B4B13BF58DA344E8C0920CCD56DCCB /* Pods-HHDrawView_Example */;
+			targetProxy = ED68206EC746D115F12A326828B4C32A /* PBXContainerItemProxy */;
+		};
+		C01CBBE56B02BF155042B5DCA51E3CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HHDrawView;
+			target = 44AE1B91879A9E27E5CCFC1ADC523826 /* HHDrawView */;
+			targetProxy = 7668B60FF26E4852AA960BCCDE59880F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2794F3B0E59CE1426508786DB6FAD179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF7EC30569E06625C8ED2B5AE4D192E /* Pods-HHDrawView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHDrawView_Tests/Pods-HHDrawView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHDrawView_Tests/Pods-HHDrawView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2ACE5D6403F322A3DA4E3DFD6EF594AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E1EA6E2F5AC63016FA3929F93C5BE3 /* Pods-HHDrawView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHDrawView_Tests/Pods-HHDrawView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHDrawView_Tests/Pods-HHDrawView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38ACC7C4601BE755FEFAA0F9D3F5445D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC87E8C276F79AF8CE82D7D56A5C60D /* Pods-HHDrawView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHDrawView_Example/Pods-HHDrawView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHDrawView_Example/Pods-HHDrawView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BC8941F007ED1AC56FE465174FB430B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HHDrawView/HHDrawView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HHDrawView/HHDrawView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HHDrawView/HHDrawView.modulemap";
+				PRODUCT_MODULE_NAME = HHDrawView;
+				PRODUCT_NAME = HHDrawView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54C28F0000CACA5D89ED8E81A12AD8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HHDrawView/HHDrawView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HHDrawView/HHDrawView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HHDrawView/HHDrawView.modulemap";
+				PRODUCT_MODULE_NAME = HHDrawView;
+				PRODUCT_NAME = HHDrawView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77CE705D61B4AFE772C1162B7DAC7991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B960DD484A6604038936F82F717CE4D /* Pods-HHDrawView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHDrawView_Example/Pods-HHDrawView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHDrawView_Example/Pods-HHDrawView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ED412B5DD993085C6EAF89A0C4DFB2 /* Build configuration list for PBXNativeTarget "Pods-HHDrawView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38ACC7C4601BE755FEFAA0F9D3F5445D /* Debug */,
+				77CE705D61B4AFE772C1162B7DAC7991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88598CF33CC443B28BF14D6A62140829 /* Build configuration list for PBXNativeTarget "HHDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C28F0000CACA5D89ED8E81A12AD8C2 /* Debug */,
+				3BC8941F007ED1AC56FE465174FB430B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14E6CF493130CFD1408247C0FA09E50 /* Build configuration list for PBXNativeTarget "Pods-HHDrawView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACE5D6403F322A3DA4E3DFD6EF594AE /* Debug */,
+				2794F3B0E59CE1426508786DB6FAD179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
