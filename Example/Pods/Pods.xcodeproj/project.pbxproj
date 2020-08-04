@@ -72,11 +72,11 @@
 		662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHDrawView.xcconfig; sourceTree = "<group>"; };
 		6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		69AFA504F38E7E4B0A8490C18BC65EE5 /* Pods-HHDrawView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Tests.framework; path = "Pods-HHDrawView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHDrawView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawArcView.m; sourceTree = "<group>"; };
-		784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		791BAA6F693135FA14D320D69DB64669 /* Pods-HHDrawView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHDrawView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHDrawView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7EC87E8C276F79AF8CE82D7D56A5C60D /* Pods-HHDrawView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80E28CEEFFBB1D6563B4ECC85E037469 /* Pods-HHDrawView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		885D464F9EE17EFA47433F2A1EF0D3F0 /* Pods-HHDrawView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Example-Info.plist"; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTrianglePath.h; sourceTree = "<group>"; };
 		98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartCell.h; sourceTree = "<group>"; };
 		9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawUtil.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHDrawView.framework; path = HHDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawView.h; sourceTree = "<group>"; };
 		A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTriangleView.m; sourceTree = "<group>"; };
 		B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-umbrella.h"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglePath.m; sourceTree = "<group>"; };
 		BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHLineChartValue.h; sourceTree = "<group>"; };
 		BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Example-umbrella.h"; sourceTree = "<group>"; };
-		C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Example.framework; path = "Pods-HHDrawView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHDrawView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
 		D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartCell.m; sourceTree = "<group>"; };
 		D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawArcView.h; sourceTree = "<group>"; };
@@ -692,8 +692,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
