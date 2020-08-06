@@ -21,6 +21,8 @@
     每一条竖线所在的cell
 7. HHIndicatorView
     指示弹窗。`self.userInteractionEnabled = NO;`
+    注：
+    indicatorView只在创建的时候，添加一次，之后画曲线图之后只需把indicatorView移到视图最上层。
     
 
 

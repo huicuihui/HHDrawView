@@ -47,6 +47,12 @@
     [self addSubview:self.collectionView];
     
     self.config = [[HHChartConfig alloc]init];
+    
+    self.indicatorView = [[HHIndicatorView alloc]initWithFrame:CGRectZero];
+    self.indicatorLineView = [UIView new];
+    self.indicatorLineView.backgroundColor = [UIColor blueColor];
+    [self.collectionView addSubview:self.indicatorView];
+    [self.collectionView addSubview:self.indicatorLineView];
 }
 
 - (void)layoutSubviews
@@ -81,12 +87,8 @@
     }
     
     //添加指示视图要在添加曲线填充色后面
-    self.indicatorView = [[HHIndicatorView alloc]initWithFrame:CGRectZero];
-    [self.collectionView addSubview:self.indicatorView];
-    
-    self.indicatorLineView = [UIView new];
-    self.indicatorLineView.backgroundColor = [UIColor blueColor];
-    [self.collectionView addSubview:self.indicatorLineView];
+    [self.collectionView bringSubviewToFront:self.indicatorView];
+    [self.collectionView bringSubviewToFront:self.indicatorLineView];
 
 }
 
