@@ -121,36 +121,6 @@
     dispatch_resume(timer);
 }
 
-
-#pragma mark 画圆环，没有动画
-- (void)drawArc0
-{
-    //获取上下文-当前绘图的设备
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    //画笔线的颜色
-    CGContextSetRGBStrokeColor(context, 0, 0, 1, 1.0);
-    //也可以使用CGContextSetStrokeColorWithColor方法：就可以用UIColor颜色参数
-//    CGContextSetStrokeColorWithColor(context, [UIColor blueColor].CGColor);
-    //线的宽度
-    CGContextSetLineWidth(context, 5.5);
-    
-    //设置路径
-    /**
-     设置路径
-
-     @param context 上下文
-     @param x#> 圆弧所在圆的中心点坐标x description#>
-     @param y#> 圆弧所在圆的中心点坐标y description#>
-     @param radius#> 所在圆半径 description#>
-     @param startAngle#> 圆弧的开始的角度 单位是弧度 0对应的是最右侧的点 description#>
-     @param endAngle#> 圆弧的结束角度 description#>
-     @param clockwise#> 顺时针（0）或者 逆时针（1） description#>
-     @return void
-     */
-    CGContextAddArc(context, CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds), self.bounds.size.width / 2.0, -M_PI_4, M_PI_2, 1);
-    //绘制（圆弧）
-    CGContextDrawPath(context, kCGPathStroke);
-}
 -(void)drawARCPath
 {
     //-M_PI_2 从12点开始

@@ -23,8 +23,9 @@ UIBezierPath *bezier = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bo
     - -M_PI_2：12点钟
     - M_PI_2 * 3：12点钟
     - 0：3点钟
-    - M_PI * 2：3点钟
+    - M_PI_2：6点钟
     - M_PI：9点钟
+    - M_PI * 2：3点钟
 一整圈：M_PI * 2
 
 ## 进度
