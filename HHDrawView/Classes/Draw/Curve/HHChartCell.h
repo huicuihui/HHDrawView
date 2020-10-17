@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HHChartCell : UICollectionViewCell
-@property (nonatomic, strong)NSMutableString *title;
 @property (nonatomic, strong)HHChartConfig *config;
 @property (nonatomic, strong)UILabel *titleLabel;
 

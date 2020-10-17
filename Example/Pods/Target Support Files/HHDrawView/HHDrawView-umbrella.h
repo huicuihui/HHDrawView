@@ -14,6 +14,7 @@
 #import "ChartModel.h"
 #import "HHChartCell.h"
 #import "HHChartConfig.h"
+#import "HHCurveModel.h"
 #import "HHDrawUtil.h"
 #import "HHDrawView.h"
 #import "HHIndicatorView.h"

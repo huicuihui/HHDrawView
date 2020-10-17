@@ -10,15 +10,21 @@
 #import "HHDrawUtil.h"
 #import "HHLineChartValue.h"
 #import "HHChartCell.h"
-#import "HHIndicatorView.h"
 @interface HHDrawView()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong)UICollectionView *collectionView;
-@property (nonatomic, strong)HHLineChartValue *chartValue;
 @property (nonatomic, strong)HHChartConfig *config;
-@property (nonatomic, strong)HHIndicatorView *indicatorView;
+/// 指示线
 @property (nonatomic, strong)UIView *indicatorLineView;
 @property (nonatomic, strong)NSMutableArray *points;
+
+/// 数据源：数据和颜色
+@property (nonatomic, strong)NSArray <HHCurveModel *> *dataSources;
+
+/// 保存之前画的线和渐变填充背景色  reload的时候需要移除
+@property (nonatomic, strong)NSMutableArray *subLayers;
+
 @end
+
 @implementation HHDrawView
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -32,6 +38,9 @@
 
 - (void)setUpItems
 {
+    self.dataSources = [NSMutableArray arrayWithCapacity:0];
+    self.subLayers = [NSMutableArray arrayWithCapacity:0];
+    
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
     flowLayout.minimumLineSpacing = 0;
     flowLayout.minimumInteritemSpacing = 0;
@@ -62,9 +71,25 @@
                                            0,
                                            self.frame.size.width - 30,
                                            self.frame.size.height);
+    [self reloadData];
+}
 
-    for (int i = 0; i < [self.dataSource numberOfLineWithDrawView:self]; i++) {
-        NSArray *data = [self.dataSource dataSourceWithDrawView:self index:i];
+- (void)reloadData
+{
+    //移除之前的线和渐变填充背景色
+    [self.subLayers makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
+    [self.subLayers removeAllObjects];
+    self.indicatorView.labOne.text = @"";
+    self.indicatorView.labTwo.text = @"";
+    self.indicatorView.labThree.text = @"";
+    self.indicatorView.frame = CGRectZero;
+    self.indicatorLineView.frame = CGRectZero;
+    
+    HHLineChartValue *chartValue;
+    self.dataSources = [NSMutableArray arrayWithArray:[self.dataSource dataSourceWithDrawView:self]];
+    for (int i = 0; i < [self.dataSources count]; i++) {
+        HHCurveModel *model = [self.dataSources objectAtIndex:i];
+        NSArray *data = model.values;
         NSMutableArray *tempArray = [NSMutableArray arrayWithCapacity:0];
         for (NSNumber *n in data) {
             ChartModel *m = [ChartModel new];
@@ -73,41 +98,28 @@
         }
         
         if (i == 0) {
-            self.config.itemWidth = (self.frame.size.width - 30) / tempArray.count;
-            self.chartValue = [[HHLineChartValue alloc]initWithDataSource:tempArray separate:0];
+            self.config.itemWidth = self.collectionView.frame.size.width / tempArray.count;
+            chartValue = [[HHLineChartValue alloc]initWithDataSource:tempArray separate:0];
         }
         
-        
-        UIColor *lineColor = [UIColor redColor];
-        if (i == 1) {
-            lineColor = [UIColor blueColor];
-        }
-        [self drawCurveLineWithLineColor:lineColor colors:@[(__bridge id)[UIColor colorWithRed:250/255.0 green:70/255.0 blue:110/255.0 alpha:0.8].CGColor,(__bridge id)[UIColor colorWithWhite:1 alpha:0.4].CGColor] dataSource:tempArray];
-        
+        [self drawCurveLineWithLineColor:model.lineColor colors:model.fillColors dataSource:tempArray chartValue:chartValue];
     }
-    
+    [self.collectionView reloadData];
     //添加指示视图要在添加曲线填充色后面
     [self.collectionView bringSubviewToFront:self.indicatorView];
     [self.collectionView bringSubviewToFront:self.indicatorLineView];
-
 }
 
 - (void)drawCurveLineWithLineColor:(UIColor *)lineColor
                             colors:(NSArray *)colors
                         dataSource:(NSArray <ChartModel *> *)dataSource
+                        chartValue:(HHLineChartValue *)chartValue
 {
-    CAShapeLayer * lineLayer = [HHDrawUtil shapeLayerWithLineWidth:1.0 strokeColor:lineColor];
-    [self.collectionView.layer addSublayer:lineLayer];
-
-    CAGradientLayer *gradientLayer = [HHDrawUtil gradientLayerWithColors:colors];
-    [self.collectionView.layer addSublayer:gradientLayer];
-
-    
     CGFloat width = self.config.itemWidth;
-    CGFloat ratio = self.chartValue.min - self.chartValue.max;
+    CGFloat ratio = chartValue.min - chartValue.max;
     NSMutableArray *points = [NSMutableArray arrayWithCapacity:0];
     [dataSource enumerateObjectsUsingBlock:^(ChartModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        CGFloat y = HHInterpolation(50, 400, (obj.value - self.chartValue.max) / ratio);
+        CGFloat y = HHInterpolation(self.config.lineTopSpace, self.collectionView.frame.size.height - self.config.lineTopSpace - self.config.lineBottomSpace, (obj.value - chartValue.max) / ratio);
         if (idx == 0) {
             [points addObject:[NSValue valueWithCGPoint:CGPointMake(10, y)]];
         }
@@ -119,19 +131,30 @@
 //        }
     }];
     self.points = [NSMutableArray arrayWithArray:points];
+
+    //画线
+    CAShapeLayer * lineLayer = [HHDrawUtil shapeLayerWithLineWidth:1.0 strokeColor:lineColor];
+    [self.collectionView.layer addSublayer:lineLayer];
     UIBezierPath *bezierPath = [HHDrawUtil bezierPathWithPoints:points curve:YES];
     lineLayer.path = [bezierPath.copy CGPath];
+
+    //渐变填充色
+    CAGradientLayer *gradientLayer = [HHDrawUtil gradientLayerWithColors:colors];
+    [self.collectionView.layer addSublayer:gradientLayer];
     UIBezierPath *fillColorBezierPath = [HHDrawUtil fillColorBezierPathWithPoints:points curve:YES size:self.collectionView.frame.size];
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = fillColorBezierPath.CGPath;
     gradientLayer.frame = CGRectMake(0, 0, self.collectionView.frame.size.width, self.collectionView.frame.size.height);
     gradientLayer.mask = shapeLayer;
+    
+    [self.subLayers addObject:lineLayer];
+    [self.subLayers addObject:gradientLayer];
 }
 
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return [[self.dataSource dataSourceWithDrawView:self index:1] count];
+    return [self.dataSources.firstObject.values count];
 }
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -140,15 +163,14 @@
     cell.config = self.config;
 //    cell.titleLabel.text = [NSString stringWithFormat:@"%.3f",((ChartModel *)self.dataSource[indexPath.row]).value];
     cell.touchesAction = ^(UITouch * _Nonnull touch) {
-        CGPoint indicatorPoint = [touch previousLocationInView:self.collectionView];
-        self.indicatorView.labOne.text = @"7月";
-        self.indicatorView.labTwo.text = @"小规模纳税人：899";
-        self.indicatorView.labThree.text = @"一般纳税人：2000";
-        
+        CGPoint indicatorPoint = [touch previousLocationInView:self.collectionView];        
         NSInteger index = (int)(indicatorPoint.x / self.config.itemWidth) + 2;
+        if (self.delegate && [self.delegate respondsToSelector:@selector(curveView:didSelectItemAtIndex:)]) {
+            [self.delegate curveView:self didSelectItemAtIndex:index - 2];
+        }
         CGPoint prePoint = [[self.points objectAtIndex:((index-1) >= self.points.count) ? (self.points.count - 1) : (index - 1)] CGPointValue];
         CGPoint nowPoint = [[self.points objectAtIndex:(index >= self.points.count) ? (self.points.count - 1) : index] CGPointValue];
-        CGPoint pq = [HHLineChartValue calculateBezierPointForCubicWithT:(1.0 / [self.dataSource dataSourceWithDrawView:self index:0].count) point0:prePoint point1:CGPointMake((nowPoint.x + prePoint.x) / 2, prePoint.y) point2:CGPointMake((nowPoint.x + prePoint.x) / 2, nowPoint.y) point3:nowPoint];
+        CGPoint pq = [HHLineChartValue calculateBezierPointForCubicWithT:(1.0 / [self.dataSources objectAtIndex:0].values.count) point0:prePoint point1:CGPointMake((nowPoint.x + prePoint.x) / 2, prePoint.y) point2:CGPointMake((nowPoint.x + prePoint.x) / 2, nowPoint.y) point3:nowPoint];
         
         CGFloat indicatorX = pq.x/*indicatorPoint.x*/, indicatorY = pq.y;
         CGFloat indicatorWidth = 145, indicatorHeight = 76;
@@ -164,6 +186,7 @@
         }];
 //        NSLog(@"");
     };
+    cell.titleLabel.text = [NSString stringWithFormat:@"%@",self.dataSources.firstObject.bottomTitles[indexPath.row]];
     return cell;
 }
 

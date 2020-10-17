@@ -25,7 +25,7 @@
     self.titleLabel = [UILabel new];
     self.titleLabel.textAlignment = NSTextAlignmentCenter;
     self.titleLabel.textColor = [UIColor blackColor];
-    
+    self.titleLabel.font = [UIFont systemFontOfSize:11];
     self.shapeLayer = [CAShapeLayer layer];
     
     [self.contentView.layer addSublayer:self.shapeLayer];

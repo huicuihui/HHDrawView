@@ -1,9 +1,9 @@
 {
   "name": "HHDrawView",
   "version": "0.1.0",
-  "summary": "A short description of HHDrawView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/805988356@qq.com/HHDrawView",
+  "summary": "画曲线，圆环，三角",
+  "description": "画多条曲线图，画圆环，画三角",
+  "homepage": "https://github.com/huicuihui/HHDrawView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "805988356@qq.com": "805988356@qq.com"
   },
   "source": {
-    "git": "https://github.com/805988356@qq.com/HHDrawView.git",
+    "git": "https://github.com/huicuihui/HHDrawView.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -14,18 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign)CGFloat itemWidth;
 @property (nonatomic, assign)CGFloat indicatorAnimateDuration;
 @property (nonatomic, assign)CGFloat bottomSpace;
-@end
 
-@class HHDrawView;
-
-@protocol HHDrawViewDataSource <NSObject>
-
-@required
-
-- (NSInteger)numberOfLineWithDrawView:(HHDrawView *)drawView;
-
-- (NSArray *)dataSourceWithDrawView:(HHDrawView *)drawView
-                              index:(NSInteger)index;
+//曲线图上下的边距
+@property (nonatomic, assign)CGFloat lineTopSpace;
+@property (nonatomic, assign)CGFloat lineBottomSpace;
 
 @end
 

@@ -11,6 +11,7 @@
 #import "ChartModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
+//y坐标的范围
 static inline CGFloat HHInterpolation(CGFloat from, CGFloat to, CGFloat ratio)
 {
     return from + (to - from) * ratio;

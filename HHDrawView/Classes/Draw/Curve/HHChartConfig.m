@@ -9,12 +9,16 @@
 #import "HHChartConfig.h"
 
 @implementation HHChartConfig
-- (CGFloat)itemWidth
+- (instancetype)init
 {
-    if (!_itemWidth) {
+    self = [super init];
+    if (self) {
         self.itemWidth = 35;
+
+        self.lineTopSpace = 30;
+        self.lineBottomSpace = 30;
     }
-    return _itemWidth;
+    return self;
 }
 
 - (CGFloat)indicatorAnimateDuration

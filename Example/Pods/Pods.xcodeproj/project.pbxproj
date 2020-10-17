@@ -7,34 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0420896104EA21F22C968B8196AF8C1B /* ChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CA47FDFD55B73FE449CCA001AA1B675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0F9F5E07FB1AC07A9870F8C72BBB2462 /* HHDrawView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */; };
+		125249828DD27A0D06D779C206004E74 /* DrawTriangleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A516D3D4FCC0F7B795B9E3E6ECD63C70 /* DrawTriangleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A9E97DD824888FAE4D15135B5EE6ED0 /* HHDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 444AC2E67533070626A195A54A4BF86B /* HHDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B135E7B1206B76D32DB1A85C745EA84 /* Pods-HHDrawView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		324EBB4F564FBD4A8DCD32CCBA4F993C /* HHDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */; };
+		1EDDAE70ED84F63AF5088AB737E2616A /* HHLineChartValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A1DB8C61EE76022235FDAB1EDC969E /* HHLineChartValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		332CEDBC6206211B047ABFA53C10A0E7 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C9D1D6D136DE19C29E59E78FFE2785 /* ChartModel.m */; };
 		37BA08F477082200FEE1FFE80210919C /* Pods-HHDrawView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A761A36DB9D80A89A2F4FD4217773 /* Pods-HHDrawView_Example-dummy.m */; };
-		3ED1E8DFB28E632C61160A4B5686E848 /* DrawArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */; };
-		4A71639E78D9B2FF10C19BEB88E0379B /* DrawTrianglePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C202EF97118E716B545AB35BD602A1B /* HHDrawUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */; };
-		4C7D56A0BD384363156AC037E4D4D858 /* HHChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */; };
-		5BA41A4BC0CE1047EEE0A2AAA369A538 /* DrawArcView.h in Headers */ = {isa = PBXBuildFile; fileRef = D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61E988DC2B347870D1522BD25F2836C9 /* HHChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64DF4B433ABF69847DEC35A5217B6823 /* HHIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76135D128064940C24F02300F865D6F2 /* HHDrawView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386AEE452B055925C77FB0140011E703 /* HHChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C10C836C6AF6C32E62600CBF8097989C /* HHChartConfig.m */; };
+		45888A484D0B2B2ACEB91A7ACA133E71 /* DrawTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C970E4AC453D8B273AF452F3E2D6523 /* DrawTrianglePath.m */; };
+		4EDCA30E91D83F8DE79FE5709F3195F9 /* HHDrawView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C30D6BC694BE7F55F9DE444457EE49 /* HHDrawView-dummy.m */; };
+		50AF6642E1934570C0C77C29848EF1FF /* DrawArcView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F833C391F185E1E78EE4B720F44949B /* DrawArcView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF96E88864C27271180D88DFE70A607 /* HHCurveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE85095FECA35321B2EDD5F1A73A4DAD /* HHCurveModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ABBC0CDF0E261D366DF581F7063C5A0 /* HHDrawUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA817B3FF90B5BAC4E8ABFE87A3C102F /* HHDrawUtil.m */; };
 		7EDA8D77CF0ED2999D244BFBBA8FEEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		811FEAD186DF6B5E7BE0C70F1627F309 /* HHLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D48D37558D0ACF57B9469601EC4B60 /* HHLineChartValue.m */; };
+		8356C4F1E105640E9E1C9B4A3D2ED427 /* HHIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A537EC9F8BA4D64AA33809E65D508C22 /* HHIndicatorView.m */; };
+		8BEAE0090E8EBECC0492EBC47D415168 /* HHDrawUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EFC165A8751948D34C93C4DAF06CBC /* HHDrawUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D8EFA859625024862094357D2FB754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9770AF2EFDA0D3130AD3B747406CD6F9 /* HHLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */; };
-		AB365C69EDF63610FBB5496CB7458059 /* DrawTriangleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1320C1675131E4F004CD9B5548AC16E /* DrawTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */; };
-		B1A6D84C1CF51AACE48C16955B1FE2AB /* HHIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */; };
-		BF9BCC4E3D4148E0C22A1BD3AF695903 /* HHChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */; };
-		C013034281AA2AA7FC7170F6BE28B442 /* HHChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C67732BB48DAEA8874528E12E379EF6E /* HHDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C1F497FF0857FFD709F286DF468983 /* HHDrawView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1270AEA735EFA1AA16D7EE371AAC2C /* HHDrawView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4A6513709CB286047FF1CBE381321C /* HHIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D074C6231A1AD300BC7E6455FA864815 /* HHIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC6500146CB7BDE7A8843C5DECF9C3A /* DrawArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586D693D199C0C0358C7B28EEEFB816 /* DrawArcView.m */; };
+		B07E1293DE8E7B75C1A9A00401E0294F /* ChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BB1268E785D3121D80A0D8C5DC73C6 /* ChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35829418647ABC0BB53E059216FC8D5 /* HHChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD75ABD1D224C274061A99379FEBF7D /* HHChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2850ED89F085641E1D392976938612 /* HHChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E08607CF95C86F41379A76706A5AD466 /* HHChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC61537C3C6E146D540554209C929E96 /* HHChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BE9404BAE1FF9189B5AEC2B6967EB /* HHChartCell.m */; };
+		CC4C8815025748F7D797DC54B6DC4021 /* DrawTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01618A515A0D06FF25699E5F4B07986 /* DrawTriangleView.m */; };
 		CF8CF636134A332F35E43105C4173A5C /* Pods-HHDrawView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A89A113D9C285C2CBF007C8F4636C69 /* Pods-HHDrawView_Tests-dummy.m */; };
-		D01E1F7C3A10FBF5EBCE39F607D09F1D /* DrawTrianglePath.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */; };
-		D6B1CB9FF5B42D04996B183A7ABFAB91 /* HHLineChartValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAE9669BBC9371CA252EE78DE803A31D /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */; };
-		F0269CEC05308AAE42F6C484D3FE39C8 /* HHDrawUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08CC74E52478C10F4AD0A1E9C4B41BB /* DrawTrianglePath.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D88090C9399EE92EACE5EBD39E25B2 /* DrawTrianglePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36C9A60C009FCD14502AB876D8CEC5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E55E90903142E09C99450A000F4898C0 /* HHDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A09463DD8E18ABC809026EB67A679DFB /* HHDrawView.m */; };
+		E633B374A79378E78E799F6A0939473E /* HHCurveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67917E9EAFDFBC6DFBB4860C3E61938A /* HHCurveModel.m */; };
 		FD92F259DC59DB3D7AD8CECC60B6933D /* Pods-HHDrawView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,53 +60,55 @@
 /* Begin PBXFileReference section */
 		03BEBED7539166CB8FD039FC147750E7 /* Pods-HHDrawView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHDrawView_Tests.modulemap"; sourceTree = "<group>"; };
 		068E0656EE62C5AD5979CA038BBCB8E2 /* Pods-HHDrawView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Tests-Info.plist"; sourceTree = "<group>"; };
+		06DDB7CCBBBEF40287B1AE5A53C911A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		09E1EA6E2F5AC63016FA3929F93C5BE3 /* Pods-HHDrawView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D0D48BCFCE6EB532E82FB0427CF0E96 /* HHDrawView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-prefix.pch"; sourceTree = "<group>"; };
 		0DD8E2CB2A60030B94A16E1C3D164284 /* Pods-HHDrawView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHDrawView_Example.modulemap"; sourceTree = "<group>"; };
-		2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHLineChartValue.m; sourceTree = "<group>"; };
+		12C9D1D6D136DE19C29E59E78FFE2785 /* ChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		1C1270AEA735EFA1AA16D7EE371AAC2C /* HHDrawView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTriangleView.h; sourceTree = "<group>"; };
-		4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHIndicatorView.m; sourceTree = "<group>"; };
-		5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHDrawView-dummy.m"; sourceTree = "<group>"; };
+		36EFC165A8751948D34C93C4DAF06CBC /* HHDrawUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawUtil.h; sourceTree = "<group>"; };
+		37C30D6BC694BE7F55F9DE444457EE49 /* HHDrawView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHDrawView-dummy.m"; sourceTree = "<group>"; };
+		40D48D37558D0ACF57B9469601EC4B60 /* HHLineChartValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHLineChartValue.m; sourceTree = "<group>"; };
+		444AC2E67533070626A195A54A4BF86B /* HHDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawView.h; sourceTree = "<group>"; };
 		57C4E18D0B5C946FCE42660793B67049 /* Pods-HHDrawView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawView.m; sourceTree = "<group>"; };
 		5B960DD484A6604038936F82F717CE4D /* Pods-HHDrawView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5C1221F751B055189F3EF7ADFEE89654 /* HHDrawView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-prefix.pch"; sourceTree = "<group>"; };
-		662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHDrawView.xcconfig; sourceTree = "<group>"; };
+		5F833C391F185E1E78EE4B720F44949B /* DrawArcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawArcView.h; sourceTree = "<group>"; };
+		62BB1268E785D3121D80A0D8C5DC73C6 /* ChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
 		6691C1BD0A879E0EFC6851F4421CB231 /* Pods-HHDrawView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		67917E9EAFDFBC6DFBB4860C3E61938A /* HHCurveModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHCurveModel.m; sourceTree = "<group>"; };
+		684BE9404BAE1FF9189B5AEC2B6967EB /* HHChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartCell.m; sourceTree = "<group>"; };
 		69AFA504F38E7E4B0A8490C18BC65EE5 /* Pods-HHDrawView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHDrawView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawArcView.m; sourceTree = "<group>"; };
-		784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71EC201643A348F3993966E082344D06 /* Pods_HHDrawView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Tests.framework; path = "Pods-HHDrawView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7586D693D199C0C0358C7B28EEEFB816 /* DrawArcView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawArcView.m; sourceTree = "<group>"; };
 		791BAA6F693135FA14D320D69DB64669 /* Pods-HHDrawView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHDrawView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHDrawView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7ABBB07E8C4F2467C64B3EE4A0732915 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C970E4AC453D8B273AF452F3E2D6523 /* DrawTrianglePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglePath.m; sourceTree = "<group>"; };
 		7EC87E8C276F79AF8CE82D7D56A5C60D /* Pods-HHDrawView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80E28CEEFFBB1D6563B4ECC85E037469 /* Pods-HHDrawView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87C7317B4BD7F2E4018E4E1ED888A64B /* HHDrawView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHDrawView.xcconfig; sourceTree = "<group>"; };
 		885D464F9EE17EFA47433F2A1EF0D3F0 /* Pods-HHDrawView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHDrawView_Example-Info.plist"; sourceTree = "<group>"; };
 		8A89A113D9C285C2CBF007C8F4636C69 /* Pods-HHDrawView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHDrawView_Tests-dummy.m"; sourceTree = "<group>"; };
-		8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
-		94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTrianglePath.h; sourceTree = "<group>"; };
-		98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartCell.h; sourceTree = "<group>"; };
-		9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawUtil.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawView.h; sourceTree = "<group>"; };
-		A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTriangleView.m; sourceTree = "<group>"; };
-		B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHDrawView-umbrella.h"; sourceTree = "<group>"; };
+		98A1DB8C61EE76022235FDAB1EDC969E /* HHLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHLineChartValue.h; sourceTree = "<group>"; };
+		9AD26CF417A93874A8CD734EF094824F /* HHDrawView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHDrawView.modulemap; sourceTree = "<group>"; };
+		9D776A039D45C380AA51F41449C6E5F1 /* HHDrawView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHDrawView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00F60EBF1AB6ACE2C60F888C78BF8B9 /* HHDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHDrawView.framework; path = HHDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09463DD8E18ABC809026EB67A679DFB /* HHDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawView.m; sourceTree = "<group>"; };
+		A516D3D4FCC0F7B795B9E3E6ECD63C70 /* DrawTriangleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTriangleView.h; sourceTree = "<group>"; };
+		A537EC9F8BA4D64AA33809E65D508C22 /* HHIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHIndicatorView.m; sourceTree = "<group>"; };
+		AE85095FECA35321B2EDD5F1A73A4DAD /* HHCurveModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHCurveModel.h; sourceTree = "<group>"; };
 		BE3A761A36DB9D80A89A2F4FD4217773 /* Pods-HHDrawView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHDrawView_Example-dummy.m"; sourceTree = "<group>"; };
-		BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTrianglePath.m; sourceTree = "<group>"; };
-		BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHLineChartValue.h; sourceTree = "<group>"; };
 		BF2E034AF497163234F973D4F5A62FD6 /* Pods-HHDrawView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHDrawView_Example-umbrella.h"; sourceTree = "<group>"; };
-		C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHDrawView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
-		D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartCell.m; sourceTree = "<group>"; };
-		D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawArcView.h; sourceTree = "<group>"; };
-		DA94CA6296D2A58F56034525E399A7EC /* HHDrawView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHDrawView.modulemap; sourceTree = "<group>"; };
-		DDE7F3A847ABAE8E5F591632289EB68C /* HHDrawView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHDrawView-Info.plist"; sourceTree = "<group>"; };
-		E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartConfig.m; sourceTree = "<group>"; };
-		E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartConfig.h; sourceTree = "<group>"; };
-		F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHIndicatorView.h; sourceTree = "<group>"; };
-		F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHDrawUtil.h; sourceTree = "<group>"; };
+		C10C836C6AF6C32E62600CBF8097989C /* HHChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHChartConfig.m; sourceTree = "<group>"; };
+		C8CEFA7D9805F017EEA61CA7E99F78AD /* Pods_HHDrawView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHDrawView_Example.framework; path = "Pods-HHDrawView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074C6231A1AD300BC7E6455FA864815 /* HHIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHIndicatorView.h; sourceTree = "<group>"; };
+		D4D88090C9399EE92EACE5EBD39E25B2 /* DrawTrianglePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawTrianglePath.h; sourceTree = "<group>"; };
+		E01618A515A0D06FF25699E5F4B07986 /* DrawTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawTriangleView.m; sourceTree = "<group>"; };
+		E08607CF95C86F41379A76706A5AD466 /* HHChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartCell.h; sourceTree = "<group>"; };
+		EA817B3FF90B5BAC4E8ABFE87A3C102F /* HHDrawUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HHDrawUtil.m; sourceTree = "<group>"; };
+		F37B2D3D59E38C37EFEEDC71A9A04D8C /* HHDrawView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHDrawView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAD75ABD1D224C274061A99379FEBF7D /* HHChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HHChartConfig.h; sourceTree = "<group>"; };
 		FBF7EC30569E06625C8ED2B5AE4D192E /* Pods-HHDrawView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHDrawView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FCADB59A00E6E5630B31DB1A6E62C1AB /* Pods-HHDrawView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHDrawView_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,64 +130,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF6E26795AF6F0E91E9BD28993C76804 /* Frameworks */ = {
+		F2F03A46EA711522DFEBB54D4E291DBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA47FDFD55B73FE449CCA001AA1B675 /* Foundation.framework in Frameworks */,
+				D36C9A60C009FCD14502AB876D8CEC5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C73AE57B03B775C556193B63B646FB /* Support Files */ = {
+		1D59893AF6907BFA1198C18A909C6B53 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DA94CA6296D2A58F56034525E399A7EC /* HHDrawView.modulemap */,
-				662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */,
-				5676725C8062F95F5F8ED6EE25989A2C /* HHDrawView-dummy.m */,
-				DDE7F3A847ABAE8E5F591632289EB68C /* HHDrawView-Info.plist */,
-				5C1221F751B055189F3EF7ADFEE89654 /* HHDrawView-prefix.pch */,
-				B2D569534008620707BD975F118E7E96 /* HHDrawView-umbrella.h */,
+				F37B2D3D59E38C37EFEEDC71A9A04D8C /* HHDrawView.podspec */,
+				7ABBB07E8C4F2467C64B3EE4A0732915 /* LICENSE */,
+				06DDB7CCBBBEF40287B1AE5A53C911A9 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HHDrawView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		45F705DA9F2699B1B9EF3AA51BD41F03 /* HHDrawView */ = {
+		4BFBFE0235E64ECF0E057C6E379FA6BF /* Arc */ = {
 			isa = PBXGroup;
 			children = (
-				CFF602E5F885FC08935A399AFA2F5792 /* Arc */,
-				556FEE22FA368BA08AE59667212CD15C /* Curve */,
-				B72F538546EA6482887F687CF7ADF1BD /* Pod */,
-				06C73AE57B03B775C556193B63B646FB /* Support Files */,
-				A595770DD33AEA0C1DDB1BC53E2D2061 /* Triangle */,
+				5F833C391F185E1E78EE4B720F44949B /* DrawArcView.h */,
+				7586D693D199C0C0358C7B28EEEFB816 /* DrawArcView.m */,
 			);
-			name = HHDrawView;
-			path = ../..;
+			name = Arc;
+			path = HHDrawView/Classes/Draw/Arc;
 			sourceTree = "<group>";
 		};
-		556FEE22FA368BA08AE59667212CD15C /* Curve */ = {
+		5AB6E4178BB7F08C6C3E15703FEC880C /* Triangle */ = {
 			isa = PBXGroup;
 			children = (
-				8DEE0477E6F48DFFB82159CC374C02A9 /* ChartModel.h */,
-				CCD622046D4CA0CEA77FEB60F3107A37 /* ChartModel.m */,
-				98B47BB13B39E22B751DB94071B06517 /* HHChartCell.h */,
-				D3D7D396600C4EB2515858436D898BB3 /* HHChartCell.m */,
-				E458FB9B6140593E3C715EFAFDC5E350 /* HHChartConfig.h */,
-				E1C00DBE997862944E8A36328D6CB541 /* HHChartConfig.m */,
-				F618D78FE64302EA46296EECE65962F9 /* HHDrawUtil.h */,
-				9D1865BE513DD9FA5AB3C0B70F066EF9 /* HHDrawUtil.m */,
-				A0682C6C47FDFD631157CE27A7DE13F1 /* HHDrawView.h */,
-				589F7FD7FE4463230A37DA555E63ACE5 /* HHDrawView.m */,
-				F52F397245E97EF091447F2169FCE981 /* HHIndicatorView.h */,
-				4BA1EFFB02449F556A444E389E4872EA /* HHIndicatorView.m */,
-				BF25215097C4BFFF6CF239FD5C82B878 /* HHLineChartValue.h */,
-				2BB1DB1A28330D16DF25AAFBDF3914CA /* HHLineChartValue.m */,
+				D4D88090C9399EE92EACE5EBD39E25B2 /* DrawTrianglePath.h */,
+				7C970E4AC453D8B273AF452F3E2D6523 /* DrawTrianglePath.m */,
+				A516D3D4FCC0F7B795B9E3E6ECD63C70 /* DrawTriangleView.h */,
+				E01618A515A0D06FF25699E5F4B07986 /* DrawTriangleView.m */,
 			);
-			name = Curve;
-			path = HHDrawView/Classes/Draw/Curve;
+			name = Triangle;
+			path = HHDrawView/Classes/Draw/Triangle;
 			sourceTree = "<group>";
 		};
 		5E968AAD1E0C037AE468388FD8451A3F /* Pods-HHDrawView_Tests */ = {
@@ -211,6 +198,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7280DE5EEC0043631707575DAE789122 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD26CF417A93874A8CD734EF094824F /* HHDrawView.modulemap */,
+				87C7317B4BD7F2E4018E4E1ED888A64B /* HHDrawView.xcconfig */,
+				37C30D6BC694BE7F55F9DE444457EE49 /* HHDrawView-dummy.m */,
+				9D776A039D45C380AA51F41449C6E5F1 /* HHDrawView-Info.plist */,
+				0D0D48BCFCE6EB532E82FB0427CF0E96 /* HHDrawView-prefix.pch */,
+				1C1270AEA735EFA1AA16D7EE371AAC2C /* HHDrawView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HHDrawView";
+			sourceTree = "<group>";
+		};
+		84DF47F5FAE220C260AE00C2CBA54113 /* HHDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFBFE0235E64ECF0E057C6E379FA6BF /* Arc */,
+				E0B0737915DDB488A22BB6A97882CD17 /* Curve */,
+				1D59893AF6907BFA1198C18A909C6B53 /* Pod */,
+				7280DE5EEC0043631707575DAE789122 /* Support Files */,
+				5AB6E4178BB7F08C6C3E15703FEC880C /* Triangle */,
+			);
+			name = HHDrawView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		97D560DD293AF7D3F7438CDD4C5B32DE /* Pods-HHDrawView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,28 +240,6 @@
 			);
 			name = "Pods-HHDrawView_Example";
 			path = "Target Support Files/Pods-HHDrawView_Example";
-			sourceTree = "<group>";
-		};
-		A595770DD33AEA0C1DDB1BC53E2D2061 /* Triangle */ = {
-			isa = PBXGroup;
-			children = (
-				94179C841D5A34C3725775836EDCF667 /* DrawTrianglePath.h */,
-				BE63EDAFEEFA642E41FF4382E37AC720 /* DrawTrianglePath.m */,
-				3FE9E546C33EA7A40CD99F91863DE63A /* DrawTriangleView.h */,
-				A8EC601AA7CF07C94114C03017CB8554 /* DrawTriangleView.m */,
-			);
-			name = Triangle;
-			path = HHDrawView/Classes/Draw/Triangle;
-			sourceTree = "<group>";
-		};
-		B72F538546EA6482887F687CF7ADF1BD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7BE7A9F52F519A29A36EE8148104EB37 /* HHDrawView.podspec */,
-				C0EB3622AD44D7E2E8454F805D2FD3A4 /* LICENSE */,
-				784D9600BBC40FE0404B863E3E5BC5B9 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -269,22 +261,36 @@
 			);
 			sourceTree = "<group>";
 		};
-		CFF602E5F885FC08935A399AFA2F5792 /* Arc */ = {
-			isa = PBXGroup;
-			children = (
-				D93D3B572C1100105700083B492CFD4D /* DrawArcView.h */,
-				741324AF062DBA9F67C0B79475A592BF /* DrawArcView.m */,
-			);
-			name = Arc;
-			path = HHDrawView/Classes/Draw/Arc;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0B0737915DDB488A22BB6A97882CD17 /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				62BB1268E785D3121D80A0D8C5DC73C6 /* ChartModel.h */,
+				12C9D1D6D136DE19C29E59E78FFE2785 /* ChartModel.m */,
+				E08607CF95C86F41379A76706A5AD466 /* HHChartCell.h */,
+				684BE9404BAE1FF9189B5AEC2B6967EB /* HHChartCell.m */,
+				FAD75ABD1D224C274061A99379FEBF7D /* HHChartConfig.h */,
+				C10C836C6AF6C32E62600CBF8097989C /* HHChartConfig.m */,
+				AE85095FECA35321B2EDD5F1A73A4DAD /* HHCurveModel.h */,
+				67917E9EAFDFBC6DFBB4860C3E61938A /* HHCurveModel.m */,
+				36EFC165A8751948D34C93C4DAF06CBC /* HHDrawUtil.h */,
+				EA817B3FF90B5BAC4E8ABFE87A3C102F /* HHDrawUtil.m */,
+				444AC2E67533070626A195A54A4BF86B /* HHDrawView.h */,
+				A09463DD8E18ABC809026EB67A679DFB /* HHDrawView.m */,
+				D074C6231A1AD300BC7E6455FA864815 /* HHIndicatorView.h */,
+				A537EC9F8BA4D64AA33809E65D508C22 /* HHIndicatorView.m */,
+				98A1DB8C61EE76022235FDAB1EDC969E /* HHLineChartValue.h */,
+				40D48D37558D0ACF57B9469601EC4B60 /* HHLineChartValue.m */,
+			);
+			name = Curve;
+			path = HHDrawView/Classes/Draw/Curve;
 			sourceTree = "<group>";
 		};
 		ECE683290818C88B049A1D314820CE53 /* Products */ = {
@@ -300,7 +306,7 @@
 		F79FDDE2DF8C0CE5CC23C8755A633341 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45F705DA9F2699B1B9EF3AA51BD41F03 /* HHDrawView */,
+				84DF47F5FAE220C260AE00C2CBA54113 /* HHDrawView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -324,21 +330,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A0004D42C27A3DF4645C2FF42DE0D9 /* Headers */ = {
+		DF5B0CE79EEFD74C56168E8FBB553908 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420896104EA21F22C968B8196AF8C1B /* ChartModel.h in Headers */,
-				5BA41A4BC0CE1047EEE0A2AAA369A538 /* DrawArcView.h in Headers */,
-				4A71639E78D9B2FF10C19BEB88E0379B /* DrawTrianglePath.h in Headers */,
-				AB365C69EDF63610FBB5496CB7458059 /* DrawTriangleView.h in Headers */,
-				C013034281AA2AA7FC7170F6BE28B442 /* HHChartCell.h in Headers */,
-				61E988DC2B347870D1522BD25F2836C9 /* HHChartConfig.h in Headers */,
-				F0269CEC05308AAE42F6C484D3FE39C8 /* HHDrawUtil.h in Headers */,
-				76135D128064940C24F02300F865D6F2 /* HHDrawView-umbrella.h in Headers */,
-				C67732BB48DAEA8874528E12E379EF6E /* HHDrawView.h in Headers */,
-				64DF4B433ABF69847DEC35A5217B6823 /* HHIndicatorView.h in Headers */,
-				D6B1CB9FF5B42D04996B183A7ABFAB91 /* HHLineChartValue.h in Headers */,
+				B07E1293DE8E7B75C1A9A00401E0294F /* ChartModel.h in Headers */,
+				50AF6642E1934570C0C77C29848EF1FF /* DrawArcView.h in Headers */,
+				D08CC74E52478C10F4AD0A1E9C4B41BB /* DrawTrianglePath.h in Headers */,
+				125249828DD27A0D06D779C206004E74 /* DrawTriangleView.h in Headers */,
+				BB2850ED89F085641E1D392976938612 /* HHChartCell.h in Headers */,
+				B35829418647ABC0BB53E059216FC8D5 /* HHChartConfig.h in Headers */,
+				5AF96E88864C27271180D88DFE70A607 /* HHCurveModel.h in Headers */,
+				8BEAE0090E8EBECC0492EBC47D415168 /* HHDrawUtil.h in Headers */,
+				98C1F497FF0857FFD709F286DF468983 /* HHDrawView-umbrella.h in Headers */,
+				1A9E97DD824888FAE4D15135B5EE6ED0 /* HHDrawView.h in Headers */,
+				AA4A6513709CB286047FF1CBE381321C /* HHIndicatorView.h in Headers */,
+				1EDDAE70ED84F63AF5088AB737E2616A /* HHLineChartValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +373,12 @@
 		};
 		44AE1B91879A9E27E5CCFC1ADC523826 /* HHDrawView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88598CF33CC443B28BF14D6A62140829 /* Build configuration list for PBXNativeTarget "HHDrawView" */;
+			buildConfigurationList = 1B79A9034239503612942229BBE29C8B /* Build configuration list for PBXNativeTarget "HHDrawView" */;
 			buildPhases = (
-				A8A0004D42C27A3DF4645C2FF42DE0D9 /* Headers */,
-				65E1CA4896B183CC6859D8F738FE79FA /* Sources */,
-				DF6E26795AF6F0E91E9BD28993C76804 /* Frameworks */,
-				14914DBFD3CCC8EC2521E3416463B593 /* Resources */,
+				DF5B0CE79EEFD74C56168E8FBB553908 /* Headers */,
+				0A00213EC2B335A67E07D8AE810C2FF7 /* Sources */,
+				F2F03A46EA711522DFEBB54D4E291DBD /* Frameworks */,
+				8EA2D6D5A006EE7F117F914C8973D232 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -431,7 +438,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14914DBFD3CCC8EC2521E3416463B593 /* Resources */ = {
+		8EA2D6D5A006EE7F117F914C8973D232 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,29 +462,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A00213EC2B335A67E07D8AE810C2FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332CEDBC6206211B047ABFA53C10A0E7 /* ChartModel.m in Sources */,
+				AEC6500146CB7BDE7A8843C5DECF9C3A /* DrawArcView.m in Sources */,
+				45888A484D0B2B2ACEB91A7ACA133E71 /* DrawTrianglePath.m in Sources */,
+				CC4C8815025748F7D797DC54B6DC4021 /* DrawTriangleView.m in Sources */,
+				BC61537C3C6E146D540554209C929E96 /* HHChartCell.m in Sources */,
+				386AEE452B055925C77FB0140011E703 /* HHChartConfig.m in Sources */,
+				E633B374A79378E78E799F6A0939473E /* HHCurveModel.m in Sources */,
+				6ABBC0CDF0E261D366DF581F7063C5A0 /* HHDrawUtil.m in Sources */,
+				4EDCA30E91D83F8DE79FE5709F3195F9 /* HHDrawView-dummy.m in Sources */,
+				E55E90903142E09C99450A000F4898C0 /* HHDrawView.m in Sources */,
+				8356C4F1E105640E9E1C9B4A3D2ED427 /* HHIndicatorView.m in Sources */,
+				811FEAD186DF6B5E7BE0C70F1627F309 /* HHLineChartValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C3D161924C03ABC6A215A4000E447F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF8CF636134A332F35E43105C4173A5C /* Pods-HHDrawView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65E1CA4896B183CC6859D8F738FE79FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE9669BBC9371CA252EE78DE803A31D /* ChartModel.m in Sources */,
-				3ED1E8DFB28E632C61160A4B5686E848 /* DrawArcView.m in Sources */,
-				D01E1F7C3A10FBF5EBCE39F607D09F1D /* DrawTrianglePath.m in Sources */,
-				B1320C1675131E4F004CD9B5548AC16E /* DrawTriangleView.m in Sources */,
-				BF9BCC4E3D4148E0C22A1BD3AF695903 /* HHChartCell.m in Sources */,
-				4C7D56A0BD384363156AC037E4D4D858 /* HHChartConfig.m in Sources */,
-				4C202EF97118E716B545AB35BD602A1B /* HHDrawUtil.m in Sources */,
-				0F9F5E07FB1AC07A9870F8C72BBB2462 /* HHDrawView-dummy.m in Sources */,
-				324EBB4F564FBD4A8DCD32CCBA4F993C /* HHDrawView.m in Sources */,
-				B1A6D84C1CF51AACE48C16955B1FE2AB /* HHIndicatorView.m in Sources */,
-				9770AF2EFDA0D3130AD3B747406CD6F9 /* HHLineChartValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,38 +615,6 @@
 			};
 			name = Debug;
 		};
-		3BC8941F007ED1AC56FE465174FB430B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HHDrawView/HHDrawView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HHDrawView/HHDrawView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HHDrawView/HHDrawView.modulemap";
-				PRODUCT_MODULE_NAME = HHDrawView;
-				PRODUCT_NAME = HHDrawView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -692,15 +668,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		54C28F0000CACA5D89ED8E81A12AD8C2 /* Debug */ = {
+		51888C584C07B6043FB203A1FBA1FEA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 662CD0C2D92AC902D891795458067516 /* HHDrawView.xcconfig */;
+			baseConfigurationReference = 87C7317B4BD7F2E4018E4E1ED888A64B /* HHDrawView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -827,6 +804,38 @@
 			};
 			name = Debug;
 		};
+		D7A82E8FFD639E1812E4526C05039C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C7317B4BD7F2E4018E4E1ED888A64B /* HHDrawView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HHDrawView/HHDrawView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HHDrawView/HHDrawView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HHDrawView/HHDrawView.modulemap";
+				PRODUCT_MODULE_NAME = HHDrawView;
+				PRODUCT_NAME = HHDrawView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -839,20 +848,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1B79A9034239503612942229BBE29C8B /* Build configuration list for PBXNativeTarget "HHDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51888C584C07B6043FB203A1FBA1FEA8 /* Debug */,
+				D7A82E8FFD639E1812E4526C05039C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		88598CF33CC443B28BF14D6A62140829 /* Build configuration list for PBXNativeTarget "HHDrawView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54C28F0000CACA5D89ED8E81A12AD8C2 /* Debug */,
-				3BC8941F007ED1AC56FE465174FB430B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

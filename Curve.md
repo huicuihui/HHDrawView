@@ -36,6 +36,9 @@ touchesMoved会和collectionView的滑动冲突，需要设置collectionView不�
 ### 数据
 通过代理传入，代理方法必须实现。
 1. 有几条线
-2. 每条线的数据
+2. 线的model 
+    每条线的数据
+    线的颜色
+    线的渐变填充色
 
 
