@@ -120,8 +120,9 @@
     NSMutableArray *points = [NSMutableArray arrayWithCapacity:0];
     [dataSource enumerateObjectsUsingBlock:^(ChartModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         CGFloat y = HHInterpolation(self.config.lineTopSpace, self.collectionView.frame.size.height - self.config.lineTopSpace - self.config.lineBottomSpace, (obj.value - chartValue.max) / ratio);
+        //第一个节点的x坐标self.config.itemWidth * 0.5
         if (idx == 0) {
-            [points addObject:[NSValue valueWithCGPoint:CGPointMake(10, y)]];
+            [points addObject:[NSValue valueWithCGPoint:CGPointMake(self.config.itemWidth * 0.5, y)]];
         }
         
         CGPoint center = CGPointMake(width * 0.5 + idx * width, y);
@@ -160,8 +161,14 @@
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     HHChartCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.firstCell = NO;
+    cell.lastCell = NO;
+    if (indexPath.row == 0) {
+        cell.firstCell = YES;
+    } else if (indexPath.row == [self.dataSources.firstObject.values count] - 1) {
+        cell.lastCell = YES;
+    }
     cell.config = self.config;
-//    cell.titleLabel.text = [NSString stringWithFormat:@"%.3f",((ChartModel *)self.dataSource[indexPath.row]).value];
     cell.touchesAction = ^(UITouch * _Nonnull touch) {
         CGPoint indicatorPoint = [touch previousLocationInView:self.collectionView];        
         NSInteger index = (int)(indicatorPoint.x / self.config.itemWidth) + 2;
@@ -175,7 +182,7 @@
         CGFloat indicatorX = pq.x/*indicatorPoint.x*/, indicatorY = pq.y;
         CGFloat indicatorWidth = 145, indicatorHeight = 76;
         if (indicatorX + indicatorWidth > self.collectionView.frame.size.width) {
-            indicatorX -= indicatorWidth;
+            indicatorX -= (indicatorWidth + 5);
         }
         if (indicatorY + indicatorHeight > self.collectionView.frame.size.height) {
             indicatorY -= indicatorHeight;

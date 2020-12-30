@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HHChartCell : UICollectionViewCell
 @property (nonatomic, strong)HHChartConfig *config;
 @property (nonatomic, strong)UILabel *titleLabel;
-
+@property (nonatomic, assign)BOOL firstCell;
+@property (nonatomic, assign)BOOL lastCell;
 @property (nonatomic, copy)void (^touchesAction)(UITouch *touch);
 
 @end

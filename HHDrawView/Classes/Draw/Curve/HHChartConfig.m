@@ -16,7 +16,7 @@
         self.itemWidth = 35;
 
         self.lineTopSpace = 30;
-        self.lineBottomSpace = 30;
+        self.lineBottomSpace = 35;
     }
     return self;
 }
