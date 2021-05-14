@@ -7,13 +7,13 @@
     view上面是一个collectionView
     CAShapeLayer 曲线的layer
     CAGradientLayer 渐变填充色的layer 
-    填充色的path和曲线的路径基本一致，除了起点和终点，渐变色要从嘴底部填满。
+    填充色的path和曲线的路径基本一致，除了起点和终点，渐变色要从最底部填满。
 2. util
     创建shapeLayer和bezierPath
 3. model
 4. HHLineChartValue
     数据处理类
-    1. 把传入的数据找到最大值最小值。
+    1. 把传入的数据数组找到最大值最小值。
 5. ChartConfig
     设置每一条数据的宽度即cell宽度
     线的宽度，颜色等
